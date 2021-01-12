@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, GU, textStyle } from '@1hive/1hive-ui'
+import { Link, GU, textStyle } from '@tecommons/ui'
 
 const TECInfo = () => {
   const miroUrl = 'https://miro.medium.com/max/700/0*f1EsD1L-1_cTmTos'

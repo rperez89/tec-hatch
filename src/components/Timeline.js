@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Box, GU, Tag, textStyle, useLayout, useTheme } from '@1hive/1hive-ui'
+import { Box, GU, Tag, textStyle, useLayout, useTheme } from '@tecommons/ui'
 
 const DOT_SIZE = 3.5 * GU
 const DOT_VERTICAL_SHIFT = 0.5 * GU

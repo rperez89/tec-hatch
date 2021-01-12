@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { unstable_batchedUpdates as batchedUpdates } from 'react-dom'
 import BigNumber from 'bignumber.js'
-import { Header } from '@1hive/1hive-ui'
+import { Header } from '@tecommons/ui'
 import { useInterval } from '../hooks/use-interval'
 import { useWallet } from '../providers/Wallet'
 

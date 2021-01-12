@@ -9,7 +9,7 @@ import {
   RADIUS,
   textStyle,
   useTheme,
-} from '@1hive/1hive-ui'
+} from '@tecommons/ui'
 import { useCopyToClipboard } from '../../hooks/useCopyToClipboard'
 import { getNetworkType } from '../../networks'
 import { getProviderFromUseWalletId } from '../../ethereum-providers'

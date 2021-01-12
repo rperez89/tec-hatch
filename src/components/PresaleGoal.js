@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Box, Button, CircleGraph, useTheme, GU } from '@1hive/1hive-ui'
+import { Box, Button, CircleGraph, useTheme, GU } from '@tecommons/ui'
 // import CircleGraph from '../components/CircleGraph'
 import { PresaleViewContext } from '../context'
 import { Presale } from '../constants'

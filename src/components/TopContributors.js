@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, GU, IdentityBadge, textStyle } from '@1hive/1hive-ui'
+import { Box, GU, IdentityBadge, textStyle } from '@tecommons/ui'
 
 const TopContributors = ({ contributors = [] }) => {
   return (
