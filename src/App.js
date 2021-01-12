@@ -1,5 +1,4 @@
 import React from 'react'
-import { Main } from '@tecommons/ui'
 import { WalletProvider } from './providers/Wallet'
 import { ConnectProvider as Connect } from './providers/Connect'
 
@@ -15,11 +14,9 @@ export default () => {
     <WalletProvider>
       <Connect>
         <AppStateProvider>
-          <Main theme="dark" assetsUrl="./aragon-ui/" layout={false}>
-            <MainView>
-              <PresaleView />
-            </MainView>
-          </Main>
+          <MainView>
+            <PresaleView />
+          </MainView>
         </AppStateProvider>
       </Connect>
     </WalletProvider>
