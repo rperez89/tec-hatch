@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { SidePanel } from '@tecommons/ui'
+import { SidePanel } from '@1hive/tecommons-ui'
 import { PresaleViewContext } from '../../context'
 import Refund from './Refund'
 

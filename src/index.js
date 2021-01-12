@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Main } from '@tecommons/ui'
+import { Main } from '@1hive/tecommons-ui'
 import App from './App'
 
 ReactDOM.render(

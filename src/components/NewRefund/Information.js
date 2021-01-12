@@ -1,5 +1,5 @@
 import React from 'react'
-import { Info, GU } from '@tecommons/ui'
+import { Info, GU } from '@1hive/tecommons-ui'
 
 export default () => {
   return (

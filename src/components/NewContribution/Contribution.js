@@ -8,7 +8,7 @@ import {
   unselectable,
   GU,
   LoadingRing,
-} from '@tecommons/ui'
+} from '@1hive/tecommons-ui'
 import { PresaleViewContext } from '../../context'
 import Total from './Total'
 import Info from './Info'
