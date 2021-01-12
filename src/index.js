@@ -4,7 +4,7 @@ import { Main } from '@tecommons/ui'
 import App from './App'
 
 ReactDOM.render(
-  <Main theme="dark" assetsUrl="./aragon-ui/" layout={false} scrollView={false}>
+  <Main assetsUrl="./aragon-ui/" layout={false} scrollView={false}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
