@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Info, GU } from '@tecommons/ui'
+import { Info, GU } from '@1hive/1hive-ui'
 
 const TxInfo = () => {
   return (

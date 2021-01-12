@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { useToast } from '@tecommons/ui'
+import { useToast } from '@1hive/1hive-ui'
 import { writeText as copy } from 'clipboard-polyfill'
 
 export const useCopyToClipboard = () => {

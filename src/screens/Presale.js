@@ -12,7 +12,7 @@ import {
   Split,
   unselectable,
   Tag,
-} from '@tecommons/ui'
+} from '@1hive/1hive-ui'
 import BigNumber from 'bignumber.js'
 import addMilliseconds from 'date-fns/addMilliseconds'
 import PresaleGoal from '../components/PresaleGoal'

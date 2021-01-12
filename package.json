@@ -7,14 +7,14 @@
   "bugs": "https://github.com/TECommons/tec-hatch/issues",
   "license": "(GPL-3.0-or-later OR MIT)",
   "scripts": {
-    "build": "npm run sync-assets && react-app-rewired build",
+    "build": "yarn run sync-assets && react-app-rewired build",
     "sync-assets": "copy-aragon-ui-assets ./public",
-    "start": "npm run sync-assets && react-app-rewired start"
+    "start": "yarn run sync-assets && react-app-rewired start"
   },
   "dependencies": {
     "@aragon/connect": "^0.7.0",
     "@aragon/connect-react": "^0.7.0",
-    "@tecommons/ui": "^1.0.5",
+    "@1hive/1hive-ui": "^1.0.5",
     "@tecommons/connect-hatch": "^0.4.0",
     "bignumber.js": "^9.0.0",
     "clipboard-polyfill": "^3.0.1",
