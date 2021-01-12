@@ -10,11 +10,12 @@ import { AppStateProvider } from './providers/AppState'
 import PresaleView from './views/PresaleView'
 
 export default () => {
+  // test
   return (
     <WalletProvider>
       <Connect>
         <AppStateProvider>
-          <Main theme="dark" assetsUrl="./aragon-ui" layout={false}>
+          <Main theme="dark" assetsUrl="./aragon-ui/" layout={false}>
             <MainView>
               <PresaleView />
             </MainView>
